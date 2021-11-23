@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"target": "es6",
+		"declaration": true,
+		"jsx": "react",
+		"outDir": "lib",
+		"sourceMap": false,
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"removeComments": false
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}

@@ -1,20 +1,32 @@
-# VLibras - React
+<h1 align="center">VLibras - React</h1>
 
-Componente React para adicionar o [VLibras](https://www.gov.br/governodigital/pt-br/vlibras/) em sua aplicação
+<p align="center">
+    Componente React para adicionar o <a href="https://www.gov.br/governodigital/pt-br/vlibras" target="_blank">VLibras</a> em sua aplicação
+</p>
 
-[![Last Release](https://img.shields.io/npm/v/vlibras-react.svg)](https://npm.im/vlibras-react)
+<p align="center">
+    <a href="https://www.npmjs.com/package/vlibras-react">
+        <img
+            src="https://img.shields.io/npm/v/vlibras-react?style=for-the-badge&color=005AFF&labelColor=0f0f0f"
+            alt="version"
+        />
+    </a>
+    <a href="https://github.com/cassiomaciell/vlibras-react/blob/main/LICENSE" target="_blank">
+        <img
+            src="https://img.shields.io/badge/license-MIT-%23d527f8?style=for-the-badge&color=ffae00&labelColor=0f0f0f"
+            alt="license"
+        />
+    </a>
+</p>
 
 ## Instalação
 
-### yarn
-
-```sh
+```bash
+# pnpm
+pnpm add vlibras-react
+# yarn
 yarn add vlibras-react
-```
-
-### npm
-
-```sh
+# npm
 npm install vlibras-react
 ```
 
@@ -35,7 +47,7 @@ function App() {
 export default App;
 ```
 
-### Você pode customizar o VLibras
+#### Customização
 
 ```jsx
 import "./app.css";
@@ -52,10 +64,11 @@ function App() {
 export default App;
 ```
 
-### Exemplo de configuração
+#### Exemplo de configuração
 
 - A logo precisa ser 200x200
 - As cores são um RGB 0-1
+
   > X=R/255
 
   > Y=G/255
@@ -77,4 +90,11 @@ export default App;
     "pos": "center"
 }
 ```
+
 ![Exemplo customização](https://i.imgur.com/L68Fe8q.png)
+
+## License
+
+Licensed under the MIT License
+
+See [LICENSE](./LICENSE) for more information.

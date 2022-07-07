@@ -31,5 +31,5 @@
 		"typescript": "^4.5.2"
 	},
 	"dependencies": {},
-	"license": "ISC"
+	"license": "MIT"
 }

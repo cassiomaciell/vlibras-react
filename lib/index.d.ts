@@ -1,4 +1,3 @@
-/// <reference types="react" />
 interface VLibrasProps {
     /**
      * BASE URL de arquivos usados pelo VLibras

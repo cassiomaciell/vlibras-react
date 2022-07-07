@@ -26,7 +26,6 @@ function VLibras({ rootPath = "https://vlibras.gov.br/app", personalization = nu
 			const plugin = document.createElement("script");
 			plugin.src = "https://vlibras.gov.br/app/vlibras-plugin.js";
 			plugin.onload = () => {
-				//@ts-ignore
 				if (window.VLibras) new window.VLibras.Widget(rootPath, personalization, opacity);
 			};
 			document.body.appendChild(plugin);
